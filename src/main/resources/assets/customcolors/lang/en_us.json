@@ -1,0 +1,13 @@
+{
+  "itemGroup.customcolors": "Example Mod Tab",
+  "block.customcolors.example_block": "Example Block",
+  "item.customcolors.example_item": "Example Item",
+
+  "customcolors.configuration.title": "CustomColors Configs",
+  "customcolors.configuration.section.customcolors.common.toml": "CustomColors Configs",
+  "customcolors.configuration.section.customcolors.common.toml.title": "CustomColors Configs",
+  "customcolors.configuration.items": "Item List",
+  "customcolors.configuration.logDirtBlock": "Log Dirt Block",
+  "customcolors.configuration.magicNumberIntroduction": "Magic Number Text",
+  "customcolors.configuration.magicNumber": "Magic Number"
+}
