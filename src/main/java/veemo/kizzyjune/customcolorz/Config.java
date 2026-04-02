@@ -30,19 +30,19 @@ public class Config {
                 .define("skyColor", "#e35c07");
 
         FOLIAGE_COLOR_HEX = BUILDER
-                .comment("The hex color for the foliage color, You need to do F3 + T after changing this option!")
+                .comment("The hex color for the foliage, You need to do F3 + T after changing this option!")
                 .define("foliageColor", "#e35c07");
 
         WATER_COLOR_HEX = BUILDER
-                .comment("The hex color for the water color, You need to do F3 + T after changing this option!")
+                .comment("The hex color for the water, You need to do F3 + T after changing this option!")
                 .define("waterColor", "#e35c07");
 
         GRASS_COLOR_HEX = BUILDER
-                .comment("The hex color for the grass color, You need to do F3 + T after changing this option!")
+                .comment("The hex color for the grass, You need to do F3 + T after changing this option!")
                 .define("grassColor", "#e35c07");
 
         FOG_COLOR_HEX = BUILDER
-                .comment("The hex color for the fog color, this takes a few seconds to apply!")
+                .comment("The hex color for the fog")
                 .define("fogColor", "#e35c07");
 
         USE_DEFAULT_CLOUD_COLOR = BUILDER

@@ -1,13 +1,18 @@
 {
-  "itemGroup.customcolors": "Example Mod Tab",
-  "block.customcolors.example_block": "Example Block",
-  "item.customcolors.example_item": "Example Item",
-
-  "customcolors.configuration.title": "CustomColors Configs",
-  "customcolors.configuration.section.customcolors.common.toml": "CustomColors Configs",
-  "customcolors.configuration.section.customcolors.common.toml.title": "CustomColors Configs",
-  "customcolors.configuration.items": "Item List",
-  "customcolors.configuration.logDirtBlock": "Log Dirt Block",
-  "customcolors.configuration.magicNumberIntroduction": "Magic Number Text",
-  "customcolors.configuration.magicNumber": "Magic Number"
+  "customcolors.configuration.title": "CustomColors config",
+  "customcolors.configuration.section.customcolors.common.toml": "CustomColors config",
+  "customcolors.configuration.section.customcolors.common.toml.title": "CustomColors config",
+  "customcolors.configuration.useDefaultSkyColor": "Use default sky color",
+  "customcolors.configuration.Color settings": "Color settings",
+  "customcolors.configuration.skyColor": "Sky color",
+  "customcolors.configuration.grassColor": "Grass color",
+  "customcolors.configuration.foliageColor": "Foliage color",
+  "customcolors.configuration.useDefaultCloudColor": "Use default cloud color",
+  "customcolors.configuration.cloudColor": "Cloud color",
+  "customcolors.configuration.waterColor": "Water color",
+  "customcolors.configuration.useDefaultFoliageColor": "Use default foliage color",
+  "customcolors.configuration.fogColor": "Fog color",
+  "customcolors.configuration.useDefaultWaterColor": "Use default water color",
+  "customcolors.configuration.useDefaultFogColor": "Use default fog color",
+  "customcolors.configuration.useDefaultGrassColor": "Use default grass color"
 }

@@ -1,6 +1,9 @@
 package veemo.kizzyjune.customcolorz;
 
 public class ColorProcessor {
+
+    // Too lazy to give all longs and strings unique names so for every int it's just longA and Hex
+
     public static int cloudColor() {
         String Hex = Config.CLOUD_COLOR_HEX.get();
 
@@ -35,7 +38,7 @@ public class ColorProcessor {
             }
             return (int) longA;
         } catch (NumberFormatException e) {
-            return 0 - 1876985;
+            return 1876985;
         }
     }
 

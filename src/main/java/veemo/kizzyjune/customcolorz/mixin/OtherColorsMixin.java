@@ -12,8 +12,10 @@ import veemo.kizzyjune.customcolorz.Config;
 public class OtherColorsMixin {
     @Inject(method = "getAverageFoliageColor", at = @At("TAIL"), cancellable = true)
     private static void changeFoliageColor(CallbackInfoReturnable<Integer> ci) {
+
+        // Known issue: Does not work with Birch, Spruce, Cherry and Pale Oak trees!
+
         if (Config.USE_DEFAULT_FOLIAGE_COLOR.get()) {
-            ;
             ci.setReturnValue(ci.getReturnValue());
         } else {
             ci.setReturnValue(ColorProcessor.foliageColor());
@@ -23,7 +25,6 @@ public class OtherColorsMixin {
     @Inject(method = "getAverageGrassColor", at = @At("TAIL"), cancellable = true)
     private static void changeGrassColor(CallbackInfoReturnable<Integer> ci) {
         if (Config.USE_DEFAULT_GRASS_COLOR.get()) {
-            ;
             ci.setReturnValue(ci.getReturnValue());
         } else {
             ci.setReturnValue(ColorProcessor.grassColor());
@@ -33,7 +34,6 @@ public class OtherColorsMixin {
     @Inject(method = "getAverageWaterColor", at = @At("TAIL"), cancellable = true)
     private static void changeWaterColor(CallbackInfoReturnable<Integer> ci) {
         if (Config.USE_DEFAULT_WATER_COLOR.get()) {
-            ;
             ci.setReturnValue(ci.getReturnValue());
         } else {
             ci.setReturnValue(ColorProcessor.waterColor());

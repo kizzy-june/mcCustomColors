@@ -13,7 +13,6 @@ public class SkyColorMixin {
     @Inject(method = "getSkyColor", at = @At("TAIL"), cancellable = true)
     private static void changeSkyColor(CallbackInfoReturnable<Integer> ci) {
         if (Config.USE_DEFAULT_SKY_COLOR.get()) {
-            ;
             ci.setReturnValue(ci.getReturnValue());
         } else {
             ci.setReturnValue(ColorProcessor.skyColor());

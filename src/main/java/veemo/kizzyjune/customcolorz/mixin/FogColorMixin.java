@@ -13,10 +13,9 @@ public class FogColorMixin {
     @Inject(method = "getFogColor", at = @At("TAIL"), cancellable = true)
     private static void changeFogColor(CallbackInfoReturnable<Integer> ci) {
         if (Config.USE_DEFAULT_FOG_COLOR.get()) {
-            ;
             ci.setReturnValue(ci.getReturnValue());
         } else {
-            ci.setReturnValue(ColorProcessor.cloudColor());
+            ci.setReturnValue(ColorProcessor.fogColor());
         }
     }
 }
