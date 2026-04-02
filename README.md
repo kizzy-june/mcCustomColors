@@ -1,5 +1,8 @@
 CustomColors
 =======
+
+This mod is for Neoforge 1.21.4
+
 Minecraft mod that allows you to change sky, cloud, foliage, water, grass and fog color!+
 
 Also allows you to use the default minecraft colors while the mod is installed.
