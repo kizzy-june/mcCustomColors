@@ -11,3 +11,18 @@ That's it, you can configure the mod by editing the mod's config file or via the
 
 Known issue:
 The foliage color option does not work with Birch, Spruce, Cherry and Pale Oak trees.
+
+
+
+
+
+
+
+
+
+
+
+![neo](dc.png)
+
+Only available in Neo Agent 3's forge
+(I have to add this to all my Neoforge repos now)
